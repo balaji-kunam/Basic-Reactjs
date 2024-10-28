@@ -2,8 +2,6 @@ import React from "react";
 import Personvote from "./Components/Personvote";
 import Personproduct from './Components/Personproduct'
 import Person from "./Components/Person";
-import Events from "./Components/Events";
-import Counter from "./Components/Counter";
  
 
 const App = () => {
@@ -37,20 +35,10 @@ const App = () => {
       </div>
 
       <div>
-        {/* <Personvote Name="kunamgari balaji" age={23} />
-        <Personvote Name="kunamgari balu" age={14} /> */}
-      </div>
-
-      <div>
-       {/* <Events/> */}
-
-      </div>
-      <div>
-        <Counter />
+        <Personvote Name="kunamgari balaji" age={23} />
+        <Personvote Name="kunamgari balu" age={14} />
       </div>
     </>
-
-
   );
 };
 
